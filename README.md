@@ -4,8 +4,8 @@ Here we will try to build blank VM using terraform playbook via jenkins pipeline
 
 **Pre-requisite:**
 1. Jenkins installed on laptop with java
-2. download terraform binary
-3. Access to vcenter with administrator crdentials ( Make sure to perform it on lower environment)
+2. download terraform binary from terraform website
+3. Access to vcenter with administrator crdentials details ( Make sure to perform it on lower environment)
 
 **Steps:**
 

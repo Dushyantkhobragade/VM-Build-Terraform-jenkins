@@ -1,0 +1,22 @@
+pipeline {
+  agent any
+  tools {
+      terraform "Terraform1.1.2"
+  }
+  stages{
+      stage( 'Go To Code Dir') {
+       steps {
+        dir('C:\\Users\\john\\Documents\\terraform') {
+        bat "dir"
+}
+      }
+      }
+stage('Terraform Destroy') {
+      steps {
+          dir('C:\\Users\\john\\Documents\\terraform') {
+        bat 'C:\\Users\\john\\Downloads\\terraform_1.1.2\\terraform.exe destroy --auto-approve'
+      }
+      }
+    }
+}
+}

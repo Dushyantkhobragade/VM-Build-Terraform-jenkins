@@ -12,5 +12,5 @@ Here we will try to build blank VM using terraform playbook via jenkins pipeline
 1. Create the Terraform file. Please see vmbuild.tf
 2. In order to integrate terraform into jenkins , https://medium.com/appgambit/terraform-with-jenkins-pipeline-439babe4095c
 3. Create the 2 pipelines for building the blank VM and deleting the same blank vms.
-Pipeline1 : Demo-vmware-vm-build  ( Pipeline script  : Demo-vmware-vm-build)
-Pipeline2 : Demo-Vmware-Vm-build-Destroy ( Pipeline script  : Demo-Vmware-Vm-build-Destroy)
+Pipeline1 : Demo-vmware-vm-build  **( Pipeline script  : Demo-vmware-vm-build)**
+Pipeline2 : Demo-Vmware-Vm-build-Destroy **( Pipeline script  : Demo-Vmware-Vm-build-Destroy)**
